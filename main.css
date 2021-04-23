@@ -1,0 +1,45 @@
+.w-blocks-group-wrapper {
+    position: relative;
+}
+
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    transition: opacity .3s ease-out;
+}
+
+.header-bar {
+    display: flex;
+}
+
+.header-logo {
+    width: 25.69321379310345%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-none {
+    width: 8.481501436781613%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-navigation {
+    display: flex;
+    width: 65.82525143678158%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-navigation ul {
+    display: flex;
+}
