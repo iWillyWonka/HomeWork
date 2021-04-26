@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 #home{
     background: url(../img/bacground-fon.png) 65.31% 52.8% / cover no-repeat;
     transform: translateZ(0px);
@@ -28,8 +29,8 @@ body._lock {
     z-index: 5;
     position: relative;
     cursor: pointer;
-    width: 30px;
-    height: 18px;
+    width: 40px;
+    height: 30px;
 }
 
 .menu a {
@@ -72,18 +73,17 @@ body._lock {
 
 .logo .logo-text {
     color: #fff;
+    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
 }
 
 .logo .logo-text-r {
     color: #f42841;
+    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
 }
-
-
-
-
-
-
-
 
 .big-text-under-logo {
     height: 211px;
@@ -91,27 +91,21 @@ body._lock {
 }
 
 .big-text-under-logo h1{
-    font-family: 'Playfair Display', serif;
-    color: var(--color-font-for-headings);
-    font-size: 62px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 120px;
     font-weight: 900;
     line-height: 75px;
+    
 }
 
 .big-text-under-logo p{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-darak-gray);
-    font-size: 19px;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
     line-height: 28px;
     padding-top: 50px;
+    color: #fff;
 }
-.big-text-under-logo span {
-    color: var(--color-red);
-    border-right: 2px solid white;
-    padding-right: 5px;
-}
-
 
 .menu_icon._active span {
     transform: scale(0) translate(0px, -50%);
@@ -126,7 +120,6 @@ body._lock {
     bottom: 50%;
     transform: rotate(45deg) translate(0px, 50%);
 }
-
 
 .menu_icon span,
 .menu_icon::before,
@@ -157,68 +150,36 @@ body._lock {
 }
 
 
-
-@media(min-width:760px) {
+@media(min-width:1100px) {
+ 
     .logo {
-        font-size: 39px;
-        font-weight: 900;
-        line-height: 47px;
-    }
-
-    .big-text-under-logo h1{
-        font-size: 88px;
-        font-weight: 900;
-        line-height: 106px;
-    }
-
-    .big-text-under-logo {
-        width: 743px;
-        height: 300px;
-        padding: 192px 32px 190px 32px;
-    }
-
-    .big-text-under-logo p {
-        margin-top: -35px;
-    }
-    
-}
-
-@media(min-width:1200px) {
-    .social-networks-fa-burger {
-        display: none;
-    }
-
-    .phone-number {
-        display: none;
-    }
-
-    .logo {
-        font-size: 32px;
+        font-size: 42px;
         font-family: 'Work Sans', sans-serif;
         font-weight: 900;
         line-height: 47px;
     }
-
-    .big-text-under-logo h1{
-        font-size: 115px;
+    .big-text-under-logo .big-text-header{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 120px;
         font-weight: 900;
         line-height: 140px;
+        color: #FFF;
     }
-
+    .big-text-under-logo .logo-text-r {
+        font-size: 120px;
+        color: #f42841;
+    }
     .big-text-under-logo {
         width: 743px;
         height: 300px;
-        padding: 330px 32px 255px 32px;
+        padding: 150px 15px 150px 150px;
     }
-
     .big-text-under-logo p {
         margin-top: -35px;
     }
-
     .menu_icon {
         display: none;  
     }
-
     .menu {
         position:relative;
         display: flex;
@@ -226,7 +187,6 @@ body._lock {
         background-color: rgba(0, 0, 0, 0);
         margin-top: -30px;
     }
-    
     .menu a {
         font-family: 'Work Sans', sans-serif;
         font-size: 16px;
@@ -236,3 +196,76 @@ body._lock {
     }
 }
 
+@media(max-width:1100px) {
+    .logo {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 47px;
+    }
+
+    .big-text-under-logo .big-text-header {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 106px;
+        color: #fff;
+    }
+
+    .big-text-under-logo .logo-text-r {
+        font-family: 'Work Sans', sans-serif;
+        color: #f42841;
+        width: 743px;
+        height: 300px;
+        font-size: 70px;
+    }
+}
+
+
+@media(max-width:760px) {
+    .logo {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 47px;
+    }
+
+    .big-text-under-logo .big-text-header {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 106px;
+        color: #fff;
+    }
+
+    .big-text-under-logo .logo-text-r {
+        font-family: 'Work Sans', sans-serif;
+        color: #f42841;
+        width: 743px;
+        height: 300px;
+        font-size: 70px;
+    }
+}
+
+@media(max-width:460px) {
+    .logo {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 47px;
+    font-family: 'Work Sans', sans-serif;
+    }
+    .big-text-under-logo .big-text-header {
+        font-size: 36px;
+        color: #fff;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .big-text-under-logo .logo-text-r {
+        font-size: 36px;
+        color: #f42841;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .big-text-under-logo span {
+        font-size: 16px;
+        font-family: 'Work Sans', sans-serif;
+    }
+}
