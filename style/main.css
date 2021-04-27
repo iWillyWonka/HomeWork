@@ -13,6 +13,7 @@ body._lock {
     overflow: hidden;
 }
 
+
 .header-menu {
     display: flex;
     flex-direction: column;
@@ -439,6 +440,10 @@ body._lock {
     line-height: 1;
     background-color: #f42841;
     border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .key-vlog a {
@@ -451,7 +456,7 @@ body._lock {
     background-color: #262e3b;
 }
 
-.key-vlog button:hover a {
+.key-vlog button:hover {
     color: #f42841;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -600,7 +605,7 @@ body._lock {
     text-align: center;
 }
 
-#socials {
+.socials {
     background-color: #FFF;
     margin-top: 30px;
     margin-left: 15px;
@@ -611,7 +616,7 @@ body._lock {
     border-radius: 5px;
 }
 
-.subs {
+.socials h2 {
     font-size: 56px;
     font-family: 'Work Sans', sans-serif;
     color: #262e3b;
@@ -638,7 +643,6 @@ body._lock {
     width: 75px;
     height: 2px;
     background-color: #f42841;
-    align-content: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
