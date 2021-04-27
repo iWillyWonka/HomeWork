@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-#home{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#home {
     background: url(../img/bacground-fon.png) 65.31% 52.8% / cover no-repeat;
     transform: translateZ(0px);
     min-height: 100vh;
@@ -18,7 +20,7 @@ body._lock {
     margin: auto;
 }
 
-.header-menu-div-flex{
+.header-menu-div-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,15 +93,14 @@ body._lock {
     padding: 155px 15px 155px 15px;
 }
 
-.big-text-under-logo h1{
+.big-text-under-logo h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 120px;
     font-weight: 900;
     line-height: 75px;
-    
 }
 
-.big-text-under-logo p{
+.big-text-under-logo p {
     font-family: 'Poppins', sans-serif;
     font-size: 23px;
     font-weight: 500;
@@ -122,9 +123,7 @@ body._lock {
     transform: rotate(45deg) translate(0px, 50%);
 }
 
-.menu_icon span,
-.menu_icon::before,
-.menu_icon::after{
+.menu_icon span, .menu_icon::before, .menu_icon::after {
     left: 0;
     position: absolute;
     height: 10%;
@@ -133,15 +132,15 @@ body._lock {
     background-color: #fff;
 }
 
-.menu_icon::before,
-.menu_icon::after{
+.menu_icon::before, .menu_icon::after {
     content: "";
 }
-.menu_icon::before{
+
+.menu_icon::before {
     top: 0;
 }
 
-.menu_icon::after{
+.menu_icon::after {
     bottom: 0;
 }
 
@@ -150,44 +149,49 @@ body._lock {
     transform: scale(1) translate(0px, -50%);
 }
 
-
-@media(min-width:1100px) {
- 
+@media(min-width: 1100px) {
     .logo {
         font-size: 42px;
         font-family: 'Work Sans', sans-serif;
         font-weight: 900;
         line-height: 47px;
     }
-    .big-text-under-logo .big-text-header{
+
+    .big-text-under-logo .big-text-header {
         font-family: 'Work Sans', sans-serif;
         font-size: 120px;
         font-weight: 900;
         line-height: 140px;
         color: #FFF;
     }
+
     .big-text-under-logo .logo-text-r {
         font-size: 120px;
         color: #f42841;
     }
+
     .big-text-under-logo {
         width: 743px;
         height: 300px;
         padding: 150px 15px 150px 150px;
     }
+
     .big-text-under-logo p {
         margin-top: -35px;
     }
+
     .menu_icon {
-        display: none;  
+        display: none;
     }
+
     .menu {
-        position:relative;
+        position: relative;
         display: flex;
         left: 0;
         background-color: rgba(0, 0, 0, 0);
         margin-top: -30px;
     }
+
     .menu a {
         font-family: 'Work Sans', sans-serif;
         font-size: 16px;
@@ -197,7 +201,7 @@ body._lock {
     }
 }
 
-@media(max-width:1100px) {
+@media(max-width: 1100px) {
     .logo {
         font-family: 'Work Sans', sans-serif;
         font-size: 39px;
@@ -222,8 +226,7 @@ body._lock {
     }
 }
 
-
-@media(max-width:760px) {
+@media(max-width: 760px) {
     .logo {
         font-family: 'Work Sans', sans-serif;
         font-size: 39px;
@@ -248,13 +251,12 @@ body._lock {
     }
 }
 
-@media(max-width:479px) {
-    
+@media(max-width: 479px) {
     .logo {
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 47px;
-    font-family: 'Work Sans', sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 47px;
+        font-family: 'Work Sans', sans-serif;
     }
 
     .big-text-under-logo .big-text-header {
@@ -296,13 +298,15 @@ body._lock {
     .video-on-vlog {
         margin-top: 30px;
     }
+
+    
+
 }
 
 .future {
     background-color: rgb(199, 199, 199) ;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
 
 .future-in {
@@ -325,7 +329,6 @@ body._lock {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    
 }
 
 .future-item {
@@ -422,6 +425,7 @@ body._lock {
 .footer-vlog {
     margin-top: 70px;
 }
+
 .key-vlog {
     display: flex;
     justify-content: center;
@@ -469,7 +473,6 @@ body._lock {
 
 .containet-story {
     padding: 0 15px;
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -505,7 +508,7 @@ body._lock {
 .text-header-story {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;   
+    font-weight: 500;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -520,6 +523,50 @@ body._lock {
     letter-spacing: .05em;
     color: #fff;
     font-family: Poppins,sans-serif;
+}
+
+.bold-vlog-text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.show-more-text {
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.moreText {
+    display: none;
+}
+
+.text.show-more .moreText {
+    display: inline;
+}
+
+.readMoreBtn {
+    padding: 21px 40px;
+    background-color: #f42841;
+    color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.dots {
+    display: inline-block;
+}
+
+.text.show-more .dots {
+    display: none;
 }
 
 .read-more {
@@ -556,9 +603,129 @@ body._lock {
 #socials {
     background-color: #FFF;
     margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 35px;
+    width: 200px;
+    text-align: left;
+    border-radius: 5px;
 }
 
-.wrapper {
+.subs {
     font-size: 56px;
+    font-family: 'Work Sans', sans-serif;
+    color: #262e3b;
+    font-weight: 900;
+}
+
+.socia {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #262e3b;
+    font-weight: bold;
+    line-height: 1.56;
+}
+
+.folow {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Saira', sans-serif;
+    line-height: 1.33;
+    margin-top: 10px;
+}
+
+.future-hr-subs hr {
+    width: 75px;
+    height: 2px;
+    background-color: #f42841;
+    align-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.colaboration {
+    padding-top: 50px;
+}
+
+.colaboration-contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.colaboration-head {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+}
+
+.coloboration-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+}
+
+.colob-head-text {
+    font-size: 56px;
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #262e3b;
+}
+.colob-maintext {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+    color: #262e3b;
+    margin-top: 10px;
+}
+
+.colob-textfoot {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #707070;
+    font-family: Poppins,sans-serif;
+}
+
+#colob-btn {
+    display: flex;
+    justify-content: left;
+}
+
+#colob-textfoot {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.colaboration-photo {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    min-width: 400px
+}
+
+/*.colaboration-photo {
+    background: url(../img/colaboration-photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    object-position: 56.69% 0%;
+    max-width: 100%;
+    margin-top: -90px;
+    margin-bottom: -100px;
+    content: "";
+}
+*/
+
+.colaboration-photo img {
+    max-width: 100%;
+    max-height: 100%;
 }
