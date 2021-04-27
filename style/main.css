@@ -4,6 +4,7 @@
     background: url(../img/bacground-fon.png) 65.31% 52.8% / cover no-repeat;
     transform: translateZ(0px);
     min-height: 100vh;
+    position: static;
 }
 
 body._lock {
@@ -247,25 +248,317 @@ body._lock {
     }
 }
 
-@media(max-width:460px) {
+@media(max-width:479px) {
+    
     .logo {
     font-size: 28px;
     font-weight: 900;
     line-height: 47px;
     font-family: 'Work Sans', sans-serif;
     }
+
     .big-text-under-logo .big-text-header {
         font-size: 36px;
         color: #fff;
         font-family: 'Work Sans', sans-serif;
     }
+
     .big-text-under-logo .logo-text-r {
         font-size: 36px;
         color: #f42841;
         font-family: 'Work Sans', sans-serif;
     }
+
     .big-text-under-logo span {
         font-size: 16px;
         font-family: 'Work Sans', sans-serif;
     }
+
+    .my-vlog-back {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding: 0 16px;
+    }
+
+    .future-head {
+        font-size: 36px;
+        padding-bottom: 0;
+    }
+
+    .key-vlog button {
+        width: calc(100% + 5px);
+    }
+
+    .footer-vlog {
+        margin-top: 30px;
+    }
+
+    .video-on-vlog {
+        margin-top: 30px;
+    }
+}
+
+.future {
+    background-color: rgb(199, 199, 199) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.future-in {
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.future-head {
+    display: flex;
+    font-size: 56px;
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #262e3b;
+    padding: 30px 5px;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.future-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.future {
+    justify-content: center;
+    text-align: center;
+}
+
+.future-hr hr {
+    width: 75px;
+    height: 3px;
+    background-color: #f42841;
+    align-content: center;
+    margin: 1rem auto 1rem auto;
+}
+
+.social-n {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.solial-box {
+    box-shadow: 0 4px 13px 0 rgb(28 30 30 / 18%);
+    border-radius: 5px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.social-im {
+    display: block;
+    position: relative;
+}
+
+.my-vlog {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-vlog-back {
+    background: url(../img/vlog-logo.jpeg) fixed no-repeat 0% 43.8% / cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    transition: opacity .3s ease-out;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.head-vlog {
+    color: #262e3b;
+}
+
+.video-on-vlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content-vlog {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-vlog img {
+    object-fit: cover;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footer-vlog {
+    margin-top: 70px;
+}
+.key-vlog {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.key-vlog button {
+    padding: 21px 40px;
+    font-size: 14px;
+    border-radius: 0;
+    line-height: 1;
+    background-color: #f42841;
+    border: none;
+}
+
+.key-vlog a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.key-vlog button:hover {
+    background-color: #262e3b;
+}
+
+.key-vlog button:hover a {
+    color: #f42841;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-story {
+    position: static;
+}
+
+.story-block {
+    background: url(../img/mystory-back.png) 36.25% 53.4% / cover no-repeat;
+    transform: translateZ(0px);
+}
+
+.story-content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.containet-story {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ancet-foto {
+    display: inline-block;
+    position: relative;
+    width: 470px;
+    margin: 0 50px 0 0;
+    float: left;
+}
+
+.ancet-foto img {
+    display: block;
+    position: relative;
+    width: 470px;
+    margin: 0 50px 0 0;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+.story-header h2 {
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+.story-header h2 .logo-text-r {
+    color: #f42841;
+}
+
+.text-header-story {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.text-main-story {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #fff;
+    font-family: Poppins,sans-serif;
+}
+
+.read-more {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#block {
+    display: block;
+    text-align: left;
+}
+
+.subscribers {
+    max-width: 100%;
+}
+
+.subs-back {
+    background: url(../img/subs-back.jpeg) 50% 50% / cover no-repeat fixed;
+    transform: translateZ(0px);
+}
+
+.sunscribe-info {
+    display: flex;
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#socials {
+    background-color: #FFF;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+.wrapper {
+    font-size: 56px;
 }
