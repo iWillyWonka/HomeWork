@@ -307,6 +307,11 @@ body._lock {
     .coloboration-text .colob-head-text {
         font-size: 36px;
     }
+
+    .main .slider-show {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    }
 }
 
 .future {
@@ -749,6 +754,7 @@ body._lock {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1200px;
+    justify-content: center;
 }
 
 .slide-menu {
@@ -767,10 +773,80 @@ body._lock {
     object-fit: cover;
 }
 
-.slide-menu .prew-but {
-    margin-right: -75px;
+.contacts-bloger {
+    display: flex;
+    justify-content: center;
+
 }
 
-.slide-menu .next-but {
-    margin-left: -75px;
+.contacts-contain {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacts-info {
+    max-width: 450px;
+}
+
+.contacts-form {
+    max-width: 450px;
+}
+
+
+.form-down {
+    background-color: #fff;
+    
+    text-align: center;
+}
+
+.form-down form {
+    max-width: 100%;
+}
+.form-down-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+
+.form-down-label input {
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    padding: 14px 30px 14px 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: #f42841;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.type-message input {
+    height: 150px;
+}
+
+.form-down-label-button {
+    margin-top: 12px;
+    padding: 14px 30px 14px 30px;
+    outline: none;
+    border: none;
+    border: 2px solid var(--color-red);
+}
+
+.form-down-label-button button {
+    padding: 21px 40px;
+    background-color: #f42841;
+    color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1;
+    margin-top: 15px;
+    font-weight: bold;
 }
