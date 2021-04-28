@@ -277,31 +277,36 @@ body._lock {
         font-family: 'Work Sans', sans-serif;
     }
 
-    .my-vlog-back {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding: 0 16px;
+    .main .future {
+        padding-top: 10px;
+        padding-bottom: 50px;
     }
 
-    .future-head {
+    .future .future-item {
+        margin: 0;
+    }
+
+    .future-head span {
         font-size: 36px;
-        padding-bottom: 0;
     }
 
-    .key-vlog button {
-        width: calc(100% + 5px);
+    .my-vlog .my-vlog-back {
+        padding-top: 10px;
+        padding-bottom: 35px;
     }
 
-    .footer-vlog {
-        margin-top: 30px;
+    .ancet-foto img {
+        max-width: 445px;
     }
 
-    .video-on-vlog {
-        margin-top: 30px;
+    .subs-back .sunscribe-info {
+        padding-top: 0;
+        padding-bottom: 30px;
     }
 
-    
-
+    .coloboration-text .colob-head-text {
+        font-size: 36px;
+    }
 }
 
 .future {
@@ -483,7 +488,6 @@ body._lock {
 }
 
 .ancet-foto {
-    display: inline-block;
     position: relative;
     width: 470px;
     margin: 0 50px 0 0;
@@ -732,4 +736,41 @@ body._lock {
 .colaboration-photo img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.slider-show {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background: #f0f0f0;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.slide-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.slider-photo-b {
+    padding-right: 10px;
+}
+
+.slider-photo-b img{
+    height: 145px;
+    width: 263px;
+    object-fit: cover;
+}
+
+.slide-menu .prew-but {
+    margin-right: -75px;
+}
+
+.slide-menu .next-but {
+    margin-left: -75px;
 }
