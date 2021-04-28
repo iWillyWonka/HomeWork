@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-#home {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); #home {
     background: url(../img/bacground-fon.png) 65.31% 52.8% / cover no-repeat;
     transform: translateZ(0px);
     min-height: 100vh;
@@ -12,7 +8,6 @@
 body._lock {
     overflow: hidden;
 }
-
 
 .header-menu {
     display: flex;
@@ -309,8 +304,8 @@ body._lock {
     }
 
     .main .slider-show {
-    padding-top: 40px;
-    padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 50px;
     }
 }
 
@@ -667,6 +662,7 @@ body._lock {
     justify-content: space-between;
     max-width: 100%;
 }
+
 .colaboration-head {
     display: flex;
     justify-content: center;
@@ -690,6 +686,7 @@ body._lock {
     line-height: 1.2;
     color: #262e3b;
 }
+
 .colob-maintext {
     font-size: 18px;
     font-weight: 500;
@@ -737,7 +734,6 @@ body._lock {
     content: "";
 }
 */
-
 .colaboration-photo img {
     max-width: 100%;
     max-height: 100%;
@@ -767,7 +763,7 @@ body._lock {
     padding-right: 10px;
 }
 
-.slider-photo-b img{
+.slider-photo-b img {
     height: 145px;
     width: 263px;
     object-fit: cover;
@@ -776,7 +772,6 @@ body._lock {
 .contacts-bloger {
     display: flex;
     justify-content: center;
-
 }
 
 .contacts-contain {
@@ -795,21 +790,19 @@ body._lock {
     max-width: 450px;
 }
 
-
 .form-down {
     background-color: #fff;
-    
     text-align: center;
 }
 
 .form-down form {
     max-width: 100%;
 }
+
 .form-down-label {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    
 }
 
 .form-down-label input {
@@ -825,6 +818,7 @@ body._lock {
     font-weight: 600;
     line-height: 18px;
 }
+
 .type-message input {
     height: 150px;
 }
