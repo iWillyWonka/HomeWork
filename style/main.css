@@ -67,6 +67,7 @@ body._lock {
 }
 
 .logo a {
+    z-index: 10;
     text-decoration: none;
 }
 
@@ -230,6 +231,14 @@ body._lock {
         line-height: 47px;
     }
 
+    .logo .logo-text {
+        font-size: 36px;
+    }
+
+    .logo .logo-text-r {
+    font-size: 36px;
+    }
+    
     .big-text-under-logo .big-text-header {
         font-family: 'Work Sans', sans-serif;
         font-size: 70px;
@@ -253,6 +262,7 @@ body._lock {
         font-weight: 900;
         line-height: 47px;
         font-family: 'Work Sans', sans-serif;
+        z-index: 10;
     }
 
     .big-text-under-logo .big-text-header {
